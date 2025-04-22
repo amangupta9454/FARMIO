@@ -60,7 +60,7 @@ const App = () => {
             }
           />
           <Route path="/product" element={<Products />} />
-          <Route path="/wheather" element={<WeatherApp />} />
+          <Route path="/weather" element={<WeatherApp />} />
           <Route path="/prices" element={<PriceTransparency />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login setUser={setUser} />} />

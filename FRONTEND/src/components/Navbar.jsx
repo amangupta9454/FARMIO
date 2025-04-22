@@ -111,11 +111,11 @@ const Navbar = ({ user, setUser }) => {
           Products
         </Link>
         <Link
-          to="/wheather"
+          to="/weather"
           className="block py-2 text-xl font-semibold hover:text-amber-400 transition"
           onClick={() => setIsMenuOpen(false)}
         >
-          Wheather
+          Weather
         </Link>
         <Link
           to="/prices"
