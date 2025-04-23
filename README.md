@@ -217,7 +217,7 @@ npm run dev
 ```bash
 http://localhost:5173
 
-```bash
+```
 
 <hr> 
 <h2 id="features">✨ Key Features</h2>
