@@ -4,6 +4,7 @@
 <p align="center" style="font-size: 16px;">
 AGRI is a full-stack web application that enables direct trade between farmers and consumers while offering weather insights, secure payments, live chat, and product transparency.
 </p>
+<li><a href="https://agrifarmio.netlify.app/">LIVE DEMO</a></li>
 
 <hr>
 
@@ -242,9 +243,9 @@ http://localhost:5173
              <ul>
               <li><strong>Name:</strong> Aman Gupta</li>
                <li><strong>Email:</strong>  <a href="ag0567688@gmail.com">Send me an email</a> </li>
-                <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/amangupta9454">linkedin.com/in/yourprofile</a></li>
-                 <li><strong>GitHub:</strong> <a href="https://github.com/amangupta9454">github.com/yourusername</a></li>
-                 <li><strong>Portfolio:</strong> <a href="https://guptaaman.netlify.app/">github.com/yourusername</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/amangupta9454">LINKEDIN</a></li>
+                 <li><strong>GitHub:</strong> <a href="https://github.com/amangupta9454">GITHUB</a></li>
+                 <li><strong>Portfolio:</strong> <a href="https://guptaaman.netlify.app/">PORTFOLIO</a></li>
                   </ul> 
                   <hr>
                    <h2 id="creator">👨‍💻 Created By</h2> 
