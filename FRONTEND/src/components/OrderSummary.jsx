@@ -23,8 +23,8 @@ const OrderSummary = ({ user }) => {
     try {
       const { data } = await createPayment({ amount: order.totalPrice }, localStorage.getItem('token'));
       const options = {
-        key: 'rzp_live_eSLs2mEbGvJCkX',
-        key_secret: 'aU2xqyVSZ7SkVDi1w6Wl6h2u',
+        key: 'rzp_test_nRYV025HorHO0R',
+        key_secret: 'C99TypnA4K15XP7bANnMWnvY',
         amount: data.amount,
         currency: data.currency,
         order_id: data.id,
