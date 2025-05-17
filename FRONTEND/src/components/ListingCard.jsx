@@ -6,7 +6,7 @@ const ListingCard = ({ listing }) => {
 
   return (
     <div className="border rounded p-4 shadow-md">
-      {listing.image && <img src={`https://farmer-consumer-market.onrender.com${listing.image}`} alt={listing.name || 'Produce'} className="w-full h-40 object-cover rounded mb-2" />}
+      {listing.image && <img src={`http://localhost:5000${listing.image}`} alt={listing.name || 'Produce'} className="w-full h-40 object-cover rounded mb-2" />}
       <h3 className="text-lg font-bold">{listing.name || 'Unnamed Produce'}</h3>
       <p><strong>Price:</strong> ₹{listing.price || 0}/kg</p>
       <p><strong>Quantity:</strong> {listing.quantity || 0} kg</p>
