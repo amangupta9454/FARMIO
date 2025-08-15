@@ -116,52 +116,9 @@ const PriceTransparency = () => {
     }));
   };
 
-  const chartData = {
-    labels: sortedPrices.map((price) => price.date),
-    datasets: [
-      {
-        label: t('priceTransparency.modalPrice'),
-        data: sortedPrices.map((price) => price.modal_price),
-        borderColor: '#34d399',
-        backgroundColor: 'rgba(52, 211, 153, 0.3)',
-        fill: true,
-        tension: 0.4,
-        pointBackgroundColor: '#1f8a70',
-        pointBorderColor: '#ffffff',
-        pointHoverBackgroundColor: '#4f46e5',
-      },
-    ],
-  };
 
-  const chartOptions = {
-    responsive: true,
-    maintainAspectRatio: false,
-    plugins: {
-      legend: {
-        position: 'top',
-        labels: { color: '#1f2937', font: { size: 14, weight: 'bold' } },
-      },
-      title: {
-        display: true,
-        text: t('priceTransparency.priceTrend'),
-        color: '#1f2937',
-        font: { size: 20, weight: 'bold' },
-        padding: { top: 20, bottom: 20 },
-      },
-    },
-    scales: {
-      x: {
-        title: { display: true, text: t('priceTransparency.date'), color: '#1f2937', font: { size: 14 } },
-        ticks: { color: '#1f2937', maxRotation: 45, minRotation: 45 },
-        grid: { display: false },
-      },
-      y: {
-        title: { display: true, text: t('priceTransparency.modalPrice'), color: '#1f2937', font: { size: 14 } },
-        ticks: { color: '#1f2937' },
-        grid: { color: 'rgba(0, 0, 0, 0.05)' },
-      },
-    },
-  };
+
+
 
   const handleKeyDown = (e, index) => {
     if (e.key === 'ArrowDown' && index < sortedPrices.length - 1) {
@@ -379,17 +336,7 @@ const PriceTransparency = () => {
               {t('priceTransparency.noData')}
             </p>
           )}
-          {/* Price Trend Chart */}
-          {sortedPrices.length > 0 && (
-            <div
-              className="mb-10 bg-transparent p-6 rounded-2xl shadow-xl glassmorphism fade-in"
-              style={{ animationDelay: '0.3s' }}
-            >
-              <div className="h-64 sm:h-80 w-full">
-                <Line data={chartData} options={chartOptions} />
-              </div>
-            </div>
-          )}
+         
           {/* Table (Desktop/Tablet) and Cards (Mobile) */}
           {sortedPrices.length > 0 && (
             <>
